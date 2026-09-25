@@ -1,4 +1,6 @@
-select COUNT(english_title) from views where artist = 'Hokusai' and english_title like '%Eastern Capital%';
+select COUNT(english_title) from views where artist = 'Hokusai' and english_title like '%Eastern Capital%' or english_title like '%Edo%';
+
+
 
 
 
